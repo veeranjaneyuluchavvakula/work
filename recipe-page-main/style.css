@@ -1,0 +1,112 @@
+img{
+    border-radius: 15px;
+    width: 100%;
+    height: 500px;
+
+  }
+  
+  body p{
+    font-size: 16px;
+  }
+  body{
+    background-color: hsl(30, 18%, 87%);
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  
+          
+  }
+  
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+  .container{
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: hsl(0, 0%, 100%);
+    
+  }
+  
+  
+  .purple{  
+    color:hsl(332, 51%, 32%);
+    padding-left: 20px;
+    font-family:'outfit';
+  weight: 800px;
+  }
+  .num{
+    font-family:outfit;
+    weight:800px;
+  }
+  .ka{
+    font-family:outfit;
+    weight:400px;
+  }
+    .ing{
+      color: hsl(14, 45%, 36%);
+      padding-left: 15px;
+    }
+  .prep-time{
+    
+    background-color: hsl(330, 100%, 98%);
+    height: 170px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family:outfit;
+    weight:400px;
+  }
+  
+  
+  .ins{
+    color:hsl(14, 45%, 36%);
+    padding-left: 15px;
+  }
+ .nut{
+  color:hsl(14, 45%, 36%);
+  
+ }
+ .vs{
+  padding-left: 15px;
+  color:hsl(14, 45%, 36%);
+ }
+ ul li::marker {
+color:hsl(332, 51%, 32%);
+ }
+ol li::marker {
+  color:hsl(14, 45%, 36%); 
+}
+ul1 li::marker {
+  color:hsl(14, 45%, 36%); 
+
+}
+.new {
+  padding-left: 15px;
+}
+/* .new1{
+  padding-left: 10px;
+}*/
+.ha{
+  font-family:'Young Serif';
+  width: 400px;
+}
+table{
+width: 100%;
+border-collapse: collapse; 
+}
+
+table td {
+padding: 10px;
+}
+.vs{
+color:hsl(14, 45%, 36%); 
+}
+
+table tr {
+border-bottom: 1px solid black; 
+}
+table tr:last-child{
+    border-bottom: none;
+  }
