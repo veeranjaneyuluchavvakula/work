@@ -15,6 +15,9 @@ code {
   padding:10px;
   font-size: 20px;
   letter-spacing: 1px;
-  border-radius: 3px;
-  text-align: capitalize;
+  border-radius: 10px;
+  text-transform:capitalize;
+}
+.vs{
+  color: aqua;
 }

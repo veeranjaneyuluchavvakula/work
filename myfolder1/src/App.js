@@ -12,7 +12,7 @@ const AppName = () => {
       data.map((eachcomment) => {
         const{id,body,email, name}=eachcomment;
         return(
-          <ListItems key={id} id={id} email={email} name={name} body={body} />
+          <ListItems key={id} id={id} email={email} name={name} body={body} sampleKey={'sampleValue'} />
         );
       })
       }
@@ -21,12 +21,12 @@ const AppName = () => {
   );
 };
       const ListItems=(props) => {
-        const{id,email,body,name}=props;
+        const{id,email,body,name, key, sampleKey}=props;
         return( 
       
-      <li  className="comment">
+      <li key={key} className="comment">
         <div className="comments-header">
-          <h1 className="num">{id}</h1>
+          <h1 className="num">{props.id}</h1>
           <h3 className="email">{email}</h3>
           <h2 className="name">{name}</h2>
           
