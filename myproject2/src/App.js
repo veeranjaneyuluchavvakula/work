@@ -1,5 +1,6 @@
 import React from "react";
 import './App.css';
+import picture from './logo.svg'
 // import handling from "./reportWebVitals.js";
 
 // import Sage from "./veera.js";
@@ -17,7 +18,8 @@ const App=()=> {
 
   return (
 <main className="cotainer">
-  <button className="button" onClick={(a)=>{handling1(a,"veera");handling("b","raju")}}>click me</button>
+  <button style={{color:"white",background:"red"}} className="button" onClick={(a)=>{handling1(a,"veera");handling("b","raju")}}>click me</button>
+    <img style={ {width:"40%" , height:"50%" }} src={picture} alt="nature pic" />
 </main>
   );
 
