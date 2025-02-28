@@ -27,9 +27,9 @@ const Index = () => {
 //    }
    return (
         <div>
-           <button onClick={decrementCount}>-</button>
+           <button onClick={(e)=>setCount(count-1)}>-</button>
            <span>veera: {count}</span>
-           <button onClick={incrementCount}>+</button>
+           <button onClick={(e)=>setCount(count+2)}>+</button>
 
 
            {/* <button onClick={v2}>-</button>
