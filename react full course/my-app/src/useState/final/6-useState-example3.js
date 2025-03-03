@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 
 const Sap =()=>{
-    const [list,setlist]=useState([]);
+    
     const [message,setMessage]=useState({text:"",id:""});
     const[list,setlist]=useState([]);
     const changeMessage =(e)=>{
