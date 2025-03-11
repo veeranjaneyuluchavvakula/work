@@ -11,7 +11,9 @@ const Assa =()=>{
        setisError({status:false,msg:''})    
         try{
         const response = await fetch(apiURL);
-        const data = await response.json();
+        const data = await response.json(
+          
+        );
 
         setUsersData(data);
         setLoading(false)
