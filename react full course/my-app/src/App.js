@@ -1,5 +1,9 @@
-import React, { useState,useEffect } from "react";
-import Sap from "./useState/final/1-useEffect-example2.js"
+ import React from "react";
+import Final from "./useState/final/3-useContext-basic1.js"
+
+
+ 
+
 
 
 function App() {
@@ -7,8 +11,9 @@ function App() {
 
   return (
     <div className="App">
-      <Sap/>
-    </div>
+      <Final/>
+      
+    </div> 
   );
 }
 
